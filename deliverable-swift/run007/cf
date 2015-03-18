@@ -1,0 +1,29 @@
+tc.file=${swift.home}/etc/tc.data
+provider.staging.pin.swiftfiles=false
+pgraph.node.options=color="seagreen", style="filled"
+throttle.submit=4
+use.provider.staging=false
+tracing.enabled=true
+provenance.log=false
+sitedir.keep=false
+throttle.transfers=4
+execution.retries=0
+replication.enabled=false
+wrapperlog.always.transfer=false
+pgraph.graph.options=splines="compound", rankdir="TB"
+use.wrapper.staging=false
+clustering.queue.delay=4
+lazy.errors=false
+throttle.score.job.factor=0.2
+throttle.host.submit=2
+foreach.max.threads=16384
+replication.min.queue.time=60
+pgraph=false
+sites.file=${swift.home}/etc/sites.xml
+kickstart.enabled=maybe
+clustering.enabled=false
+kickstart.always.transfer=false
+caching.algorithm=LRU
+throttle.file.operations=8
+replication.limit=3
+clustering.min.time=60
